@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja virtual My pets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar col-12 m-auto navbar-expand-lg position-fixed">
+      <a class="navbar-brand" href="#">My Pets</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Entrar | Cadastrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Plano de saúde</a></li>
+              <li><a class="dropdown-item" href="#">Compra recorrente</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Veterinário</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/Foto principal.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/section hotel ppara pet.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Section pet vet.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="Botoes-principais col-lg-12" style="text-align: center">
+      <p id="btn-principal">
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Melhores
+          marcas</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false"
+          aria-controls="multiCollapseExample2">Novidades</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+          aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Hospedagem</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Plano de
+          saúde</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+          aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Promoção</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+          aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Blog</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+          aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Creche</button>
+      </p>
+    </div>
+    <br>
+    <div id="Produtos">
+      <h1 id="Oferta">Confira nossas Ofertas!!!</h1>
+    </div>
+    <br>
+    <figure>
+      <div class="row">
+        <div class="coluna">
+          <img src="./img/Pedigree produto 3.jpg" width="300px" alt="Pacote-de-ração-amarelo-pedigree">
+          <p id="ProdutoHum">Pedigree 1kg - Cão</p>
+          <button type="submit" id="Button-comprar">Comprar</button>
+        </div>
+        <div class="coluna">
+          <img src="./img/section destaque rede para gato.jpg" width="200px"
+            alt="cadeira-branca-com-rede-para-gato-embaixo">
+          <p id="ProdutoHum">Rede para Gato</p>
+          <button type="submit" id="Button-comprar">Comprar</button>
+        </div>
+        <div class="coluna">
+          <img src="./img/section destaque bola amarela.jpg" width="200px" alt="bola-de-tênis-amarela">
+          <p id="ProdutoHum">Bola amarela</p>
+          <button type="submit" id="Button-comprar">Comprar</button>
+        </div>
+        <div class="coluna">
+          <img src="./img/comedouro lambedor produto 4 .jpg" width="200px" alt="Comedouro-verde">
+          <p id="ProdutoHum">Comedouro</p>
+          <button type="submit" id="Button-comprar">Comprar</button>
+        </div>
+
+      </div>
+    </figure>
+    <br>
+    <div id="Enderecos">
+      <h2>Visite uma de nossas lojas</h2><br>
+      <p>Sempre tem uma pertinho de você!</p>
+    </div>
+    <div class="row">
+      <div class="coluna" id="coluna">
+        <img src="./img/Loja 1 Endereço Rua 1.png" alt="Um-celular-encereço-da-loja" width="500px">
+      </div>
+      <div class="coluna" id="coluna">
+        <img src="./img/Loja 2 Endereço Rua 2.png" alt="três-cachorros-e-endereço-da-loja" width="500px">
+      </div>
+      <div class="coluna" id="coluna">
+        <img src="./img/Loja 3 Endereço Rua 3.png" alt="Uma-pata-de-cachorro-e-endereço-da-loja" width="500px">
+      </div>
+    </div>
+    <div id="text-artigo">
+      <h2> Nesse Outono Inverno <br>
+        Proteja seu PET </h2>
+      <br>
+    </div>
+    <div id="artigo">
+      <div id="artigo2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quam mi, iaculis quis ex cursus, facilisis
+          molestie magna. Phasellus sed tincidunt mauris. Etiam nec ullamcorper ante, in efficitur augue. Aliquam
+          consequat lectus sed felis pulvinar luctus ut vitae ligula. Sed et laoreet mauris. Integer vitae erat vel
+          dolor pharetra iaculis ut in magna. Phasellus eget nunc id lacus pharetra ullamcorper vitae vitae libero.
+          Phasellus eget ultrices diam. Vivamus vel venenatis lacus. Nunc in ligula vehicula, venenatis nulla nec,
+          vulputate orci. Phasellus finibus fringilla rhoncus. Nulla eu sem fringilla, feugiat elit nec, tincidunt
+          magna. Cras condimentum ipsum sed neque ultrices, a accumsan felis convallis. Aenean maximus, arcu quis mollis
+          volutpat, eros mi ultrices leo, ut feugiat enim orci a nibh. Praesent dignissim, leo eu aliquam fringilla,
+          diam dolor pulvinar quam, sed interdum nibh velit vitae turpis.
+          <br>
+
+          Phasellus sollicitudin, metus quis pellentesque commodo, lorem nibh pulvinar velit, ut tempor nulla magna quis
+          diam. Praesent ex ante, lacinia ac posuere ac, facilisis vel augue. In hac habitasse platea dictumst. Interdum
+          et malesuada fames ac ante ipsum primis in faucibus. Sed a mauris in ante ullamcorper condimentum at id
+          libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed rutrum
+          sapien eu dictum sollicitudin. Vivamus auctor id magna sit amet rhoncus. Cras at feugiat ex. Pellentesque
+          egestas diam metus, in gravida sapien sagittis ac. Duis condimentum, neque et viverra elementum, mauris lacus
+          sollicitudin lacus, non suscipit quam mauris sed purus. Nunc et neque quis lorem mollis eleifend et vitae
+          lacus.
+
+          Etiam laoreet eleifend lectus. Praesent nec odio scelerisque, posuere metus eu, tempor lacus. Nam tempus felis
+          in efficitur
+        </p>
+        <img src="./img/section frio .jpg" alt="" width="500px" height="500px">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="Pagamento">
+      <p>Formas de pagamento</p>
+      <img src="./img/pagamentos.jpg" width="400px" alt="">
+    </div>
+    <br>
+    
+    <div id="Midia">
+      <p>Onde estamos</p>
+      <img src="./img/facebook.jpg" width="30px" height="30px" alt="Facebook">
+      <img src="./img/Instagem.png" width="30px" height="30px" alt="Instagram">
+      <img src="./img/yotube.png" width="30px" height="30px" alt="Youtube">
+    </div>
+  <br>
+  <footer>Criadora: Flávia Lima
+    <br>
+    Instituto Nu by Descomplica
+  </footer>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

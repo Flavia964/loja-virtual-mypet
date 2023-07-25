@@ -1,0 +1,111 @@
+.navbar {
+    background-color: antiquewhite;
+}
+
+.Botoes-principais {
+    background-color:antiquewhite;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#btn-principal {
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Produtos {
+    margin-left: 20px;
+    color: rgb(124, 3, 94);
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+div.box {
+    
+	display: inline-block;
+}
+
+#Button-comprar {
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    background-color:rgb(124, 3, 94);
+    border-radius: 5px;
+    border: none;
+    margin-left: 120px;
+}
+
+#ProdutoHum {
+   
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.coluna{
+    float: left;
+    width: 25%;
+}
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #coluna {
+    width: 33.33%;
+  }
+
+  .loja {
+    text-align: center;
+  }
+
+  #Enderecos {
+      color: black;
+      text-align: center;
+      margin-top: 80px;
+      background-color:antiquewhite;
+      padding: 10px;
+  }
+
+  #artigo {
+    display:flex;
+    flex-direction:column;
+    background-color: antiquewhite;
+  }
+
+  #artigo2 {
+    display:flex; 
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  #text-artigo {
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+  }
+
+  #Midia {
+    color: gray;
+  }
+
+  #Pagamento {
+    color: gray;
+  }
+
+  footer {
+    color: rgb(168, 166, 166);
+  }
+    
+
+
